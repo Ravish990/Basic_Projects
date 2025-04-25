@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Basic Web Projects</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .project {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .project:hover {
+      transform: scale(1.03);
+    }
+    a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Web Projects</h1>
+  <div class="projects">
+    <div class="project"><a href="https://netlifyunitconversion.netlify.app/" target="_blank">Unit Conversion Tool</a></div>
+    <div class="project"><a href="https://numberguesserplay.netlify.app/" target="_blank">Number Guesser Game</a></div>
+    <div class="project"><a href="https://auto-text-automation.netlify.app/" target="_blank">Auto Text Automation</a></div>
+    <div class="project"><a href="https://button-ripple-web.netlify.app/" target="_blank">Button Ripple Effect</a></div>
+    <div class="project"><a href="https://character-counter-web.netlify.app/" target="_blank">Character Counter</a></div>
+    <div class="project"><a href="https://digital-clock-website-basic.netlify.app/" target="_blank">Digital Clock</a></div>
+    <div class="project"><a href="https://heart-trial-animation.netlify.app/" target="_blank">Heart Animation</a></div>
+    <div class="project"><a href="https://mini-calender-web.netlify.app/" target="_blank">Mini Calendar</a></div>
+    <div class="project"><a href="https://random-photo-generator-web.netlify.app/" target="_blank">Random Photo Generator</a></div>
+    <div class="project"><a href="https://testimonial-slider-web.netlify.app/" target="_blank">Testimonial Slider</a></div>
+    <div class="project"><a href="https://mode-switcher-basic.netlify.app/" target="_blank">Mode Switcher</a></div>
+  </div>
+</body>
+</html>
